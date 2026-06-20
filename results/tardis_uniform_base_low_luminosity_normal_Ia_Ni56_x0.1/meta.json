@@ -1,0 +1,12 @@
+{
+    "config_saved": "results/tardis_uniform_base_low_luminosity_normal_Ia_Ni56_x0.1/config.yml",
+    "spectrum_saved": "results/tardis_uniform_base_low_luminosity_normal_Ia_Ni56_x0.1/spectrum.csv",
+    "plots": [
+        "results/tardis_uniform_base_low_luminosity_normal_Ia_Ni56_x0.1/plots/last_interaction.png",
+        "results/tardis_uniform_base_low_luminosity_normal_Ia_Ni56_x0.1/plots/last_interaction_ion.png",
+        "results/tardis_uniform_base_low_luminosity_normal_Ia_Ni56_x0.1/plots/sdec.png"
+    ],
+    "simulation_log": "results/tardis_uniform_base_low_luminosity_normal_Ia_Ni56_x0.1/simulation.h5",
+    "mass_fraction_saved": "results/tardis_uniform_base_low_luminosity_normal_Ia_Ni56_x0.1/mass_fractions.csv",
+    "time_stamp": "2026-06-11T18:04:39.282116"
+}

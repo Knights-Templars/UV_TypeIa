@@ -1,0 +1,11 @@
+{
+    "config_saved": "results/tardis_uniform_base_normal_Ia_Fe_x10/config.yml",
+    "spectrum_saved": "results/tardis_uniform_base_normal_Ia_Fe_x10/spectrum.csv",
+    "plots": [
+        "results/tardis_uniform_base_normal_Ia_Fe_x10/plots/last_interaction.png",
+        "results/tardis_uniform_base_normal_Ia_Fe_x10/plots/last_interaction_ion.png"
+    ],
+    "simulation_log": "results/tardis_uniform_base_normal_Ia_Fe_x10/simulation.h5",
+    "mass_fraction_saved": "results/tardis_uniform_base_normal_Ia_Fe_x10/mass_fractions.csv",
+    "time_stamp": "2026-06-11T14:18:23.956074"
+}

@@ -1,0 +1,114 @@
+atom_data: /Users/anirbandutta/Projects/2002cx-like/atomic_data/kurucz_cd23_chianti_H_He_latest.h5
+config_dirname: .
+debug: {}
+model:
+  abundances:
+    C: 0.2
+    Ca: 0.0015
+    Cr: 0.0003
+    Fe: 0.005
+    Mg: 0.0001
+    Ni56: 0.005
+    O: 0.7655
+    S: 0.02
+    Si: 0.005
+    Ti: 0.0003
+    model_isotope_time_0: 0.0 s
+    type: uniform
+  structure:
+    density:
+      type: branch85_w7
+      w7_rho_0: 3e+29 g / cm3
+      w7_time_0: 0.000231481 d
+      w7_v_0: 1.0 km / s
+    type: specific
+    velocity:
+      num: 20
+      start: 12000.0 km / s
+      stop: 25000.0 km / s
+montecarlo:
+  convergence_strategy:
+    damping_constant: 1.0
+    fraction: 0.8
+    hold_iterations: 4
+    lock_t_inner_cycles: 1
+    stop_if_converged: true
+    t_inner:
+      damping_constant: 0.5
+      threshold: 0.05
+      type: damped
+    t_inner_update_exponent: -0.5
+    t_rad:
+      damping_constant: 1.0
+      threshold: 0.05
+      type: damped
+    threshold: 0.05
+    type: damped
+    v_inner_boundary:
+      damping_constant: 1.0
+      threshold: 0.05
+      type: damped
+    w:
+      damping_constant: 1.0
+      threshold: 0.05
+      type: damped
+  debug_packets: false
+  enable_full_relativity: false
+  enable_nonhomologous_expansion: false
+  iterations: 30
+  last_no_of_packets: 1000000.0
+  logger_buffer: 1
+  no_of_packets: 60000.0
+  no_of_virtual_packets: 10
+  nthreads: 8
+  seed: 23111963
+  tracking:
+    initial_array_length: 10
+    track_rpacket: false
+  virtual_spectrum_spawn_range:
+    end: inf Angstrom
+    start: 1.0 Angstrom
+plasma:
+  continuum_interaction:
+    enable_adiabatic_cooling: false
+    enable_two_photon_decay: false
+    species: []
+  disable_electron_scattering: false
+  disable_line_scattering: false
+  excitation: dilute-lte
+  heating_rate_data_file: none
+  helium_treatment: none
+  initial_t_inner: -1.0 K
+  initial_t_rad: -1.0 K
+  ionization: nebular
+  line_interaction_type: macroatom
+  link_t_rad_t_electron: 0.9
+  nlte:
+    classical_nebular: false
+    coronal_approximation: false
+    species: []
+  nlte_excitation_species: []
+  nlte_ionization_species: []
+  nlte_solver: root
+  radiative_rates_type: dilute-blackbody
+  w_epsilon: 1.0e-10
+spectrum:
+  integrated:
+    compute: CPU
+    interpolate_shells: 0
+    points: 1000
+  method: virtual
+  num: 10000
+  start: 500.0 Angstrom
+  stop: 20000.0 Angstrom
+  virtual:
+    enable_biasing: false
+    survival_probability: 0.0
+    tau_russian: 10.0
+    virtual_packet_logging: false
+supernova:
+  luminosity_requested: 7.673778863370332e+42 erg / s
+  luminosity_wavelength_end: inf Angstrom
+  luminosity_wavelength_start: 0.0 Angstrom
+  time_explosion: 12.0 d
+tardis_config_version: v1.0

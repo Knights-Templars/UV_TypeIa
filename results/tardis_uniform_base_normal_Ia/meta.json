@@ -1,0 +1,8 @@
+{
+    "config_saved": "results/tardis_uniform_base_normal_Ia/config.yml",
+    "binned_tau_sobolevs_saved": "results/tardis_uniform_base_normal_Ia/binned_tau_Co_III.csv",
+    "spectrum_saved": "results/tardis_uniform_base_normal_Ia/spectrum.csv",
+    "simulation_log": "results/tardis_uniform_base_normal_Ia/simulation.h5",
+    "mass_fraction_saved": "results/tardis_uniform_base_normal_Ia/mass_fractions.csv",
+    "time_stamp": "2026-06-16T12:13:15.028181"
+}
