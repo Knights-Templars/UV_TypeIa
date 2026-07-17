@@ -9,3 +9,13 @@ model_name = 'tardis_uniform_base_normal_Ia_Ni56_x0.1'
 
 After every cell in the notebook `run_tardis_workflow.ipynb` has been run - a `model` directory with the diagnostics, results would be created in the `results` directory by the chosen `model_name`.
 
+The repository contains a wrapper around the `run_tardis` function. 
+
+It has various diagnostics like 
+
+- Line interaction diagnostics 
+- Spectral Element Decomposition Analyzer, 
+- Simulation Logger, and 
+- Model Saver. 
+
+
